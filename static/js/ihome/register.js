@@ -21,7 +21,7 @@ function generateUUID() {
 function generateImageCode() {
     var preImageCodeId = imageCodeId;
     imageCodeId = generateUUID();
-    $(".image-code img").attr("src", "/api/imagecode?p="+preImageCodeId+"&c="+imageCodeId);
+    $(".image-code img").attr("src", "/api/imagecode?pcodeid="+preImageCodeId+"&codeid="+imageCodeId);
 }
 
 function sendSMSCode() {
