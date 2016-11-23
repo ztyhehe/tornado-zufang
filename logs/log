@@ -96,3 +96,470 @@
 [I 161122 23:38:36 web:1971] 200 GET /api/imagecode?pcodeid=93f58c43-cb4d-4412-8cd1-58f3ba4d078b&codeid=989d08de-c26b-49d3-ab0c-fa99f7acc9c4 (127.0.0.1) 5.63ms
 [E 161122 23:38:36 VerifyCode:19] 'StrictRedis' object has no attribute 'deleter'
 [I 161122 23:38:36 web:1971] 200 GET /api/imagecode?pcodeid=989d08de-c26b-49d3-ab0c-fa99f7acc9c4&codeid=c0679736-8278-474c-bbb3-9c5aa9dd2ab4 (127.0.0.1) 6.24ms
+[I 161123 00:41:14 web:1971] 304 GET /register.html (127.0.0.1) 3.43ms
+[I 161123 00:41:14 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.16ms
+[I 161123 00:41:14 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.80ms
+[I 161123 00:41:14 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.74ms
+[I 161123 00:41:14 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.67ms
+[I 161123 00:41:14 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.92ms
+[I 161123 00:41:14 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.05ms
+[I 161123 00:41:14 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.96ms
+[I 161123 00:41:14 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.86ms
+[I 161123 00:41:14 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.78ms
+[I 161123 00:41:14 web:1971] 304 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 0.89ms
+[I 161123 00:41:14 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=b9d34800-ed00-4601-a5e6-32fed53584c6 (127.0.0.1) 19.35ms
+[E 161123 00:41:16 VerifyCode:19] 'StrictRedis' object has no attribute 'deleter'
+[I 161123 00:41:16 web:1971] 200 GET /api/imagecode?pcodeid=b9d34800-ed00-4601-a5e6-32fed53584c6&codeid=f60ce9d6-f7ef-4546-ac31-d17c7715eaf8 (127.0.0.1) 7.10ms
+[E 161123 00:41:27 VerifyCode:19] 'StrictRedis' object has no attribute 'deleter'
+[I 161123 00:41:27 web:1971] 200 GET /api/imagecode?pcodeid=f60ce9d6-f7ef-4546-ac31-d17c7715eaf8&codeid=03c34ce3-e855-400f-90f9-69328e1c246f (127.0.0.1) 6.11ms
+[I 161123 00:43:05 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 00:43:08 web:1971] 200 GET /api/imagecode?pcodeid=03c34ce3-e855-400f-90f9-69328e1c246f&codeid=7cdda93f-4b9d-416e-8982-b865c88077b8 (127.0.0.1) 13.48ms
+[I 161123 00:43:09 web:1971] 200 GET /api/imagecode?pcodeid=7cdda93f-4b9d-416e-8982-b865c88077b8&codeid=6ab09bd7-c59b-42b6-a072-49b2527b9cca (127.0.0.1) 21.33ms
+[I 161123 00:43:09 web:1971] 200 GET /api/imagecode?pcodeid=6ab09bd7-c59b-42b6-a072-49b2527b9cca&codeid=0601ba3d-82fe-4dd2-9d5b-a63d9a58b7cd (127.0.0.1) 6.28ms
+[I 161123 00:43:10 web:1971] 200 GET /api/imagecode?pcodeid=0601ba3d-82fe-4dd2-9d5b-a63d9a58b7cd&codeid=8d7a1e60-28bd-4768-a397-61e2b0cddba5 (127.0.0.1) 5.51ms
+[I 161123 00:43:10 web:1971] 200 GET /api/imagecode?pcodeid=8d7a1e60-28bd-4768-a397-61e2b0cddba5&codeid=23cbdafb-af2d-4624-8914-12f3966de8ac (127.0.0.1) 8.50ms
+[I 161123 00:43:10 web:1971] 200 GET /api/imagecode?pcodeid=23cbdafb-af2d-4624-8914-12f3966de8ac&codeid=a79097f7-735c-4f90-a63d-6b782e9f09bd (127.0.0.1) 9.94ms
+[I 161123 00:43:10 web:1971] 200 GET /api/imagecode?pcodeid=a79097f7-735c-4f90-a63d-6b782e9f09bd&codeid=ec621aa9-3054-497b-8e17-65191e8a88df (127.0.0.1) 5.82ms
+[I 161123 00:43:10 web:1971] 200 GET /api/imagecode?pcodeid=ec621aa9-3054-497b-8e17-65191e8a88df&codeid=b4fa2939-a7a5-4643-94a5-a1029b86f5ca (127.0.0.1) 5.49ms
+[I 161123 00:43:43 web:1971] 200 GET /api/imagecode?pcodeid=b4fa2939-a7a5-4643-94a5-a1029b86f5ca&codeid=42efc2c0-7b8b-446d-922d-75eb431a531a (127.0.0.1) 6.42ms
+[I 161123 00:43:49 web:1971] 200 GET /api/imagecode?pcodeid=42efc2c0-7b8b-446d-922d-75eb431a531a&codeid=2b87a532-f723-4e0d-9ab6-727f622548a4 (127.0.0.1) 7.95ms
+[I 161123 00:43:49 web:1971] 200 GET /api/imagecode?pcodeid=2b87a532-f723-4e0d-9ab6-727f622548a4&codeid=201db2a5-09ba-4087-a3dc-3861a45b3895 (127.0.0.1) 6.11ms
+[I 161123 00:43:50 web:1971] 200 GET /api/imagecode?pcodeid=201db2a5-09ba-4087-a3dc-3861a45b3895&codeid=8668d0b6-fe06-49d8-ae61-97a9e7de62c0 (127.0.0.1) 6.66ms
+[I 161123 00:43:50 web:1971] 200 GET /api/imagecode?pcodeid=8668d0b6-fe06-49d8-ae61-97a9e7de62c0&codeid=d1d481d3-452f-41be-8521-df4cf89d332c (127.0.0.1) 5.85ms
+[I 161123 00:43:50 web:1971] 200 GET /api/imagecode?pcodeid=d1d481d3-452f-41be-8521-df4cf89d332c&codeid=56edf6d5-a569-4d02-b630-747b33274a8e (127.0.0.1) 5.99ms
+[I 161123 00:43:50 web:1971] 200 GET /api/imagecode?pcodeid=56edf6d5-a569-4d02-b630-747b33274a8e&codeid=15ff5e51-ae3b-4bbc-a4e6-2f188a6c7fe5 (127.0.0.1) 6.07ms
+[I 161123 00:43:50 web:1971] 200 GET /api/imagecode?pcodeid=15ff5e51-ae3b-4bbc-a4e6-2f188a6c7fe5&codeid=735ec43f-865f-4706-ad51-2fdb5d7c37ed (127.0.0.1) 5.93ms
+[I 161123 00:43:50 web:1971] 200 GET /api/imagecode?pcodeid=735ec43f-865f-4706-ad51-2fdb5d7c37ed&codeid=e7771b4e-ed04-4e32-af10-4054bf9b6048 (127.0.0.1) 6.14ms
+[I 161123 00:45:32 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[W 161123 00:45:53 web:1971] 404 GET /phonecode (127.0.0.1) 5.31ms
+[I 161123 00:46:03 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=6797bdde-a829-40d2-8f1f-bb64b7713ea4 (127.0.0.1) 16.76ms
+[W 161123 00:47:34 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.90ms
+[I 161123 00:47:35 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=23b512f6-e697-4d97-abd6-ab5a70adb587 (127.0.0.1) 7.89ms
+[W 161123 00:47:42 web:1971] 405 GET /api/phonecode (127.0.0.1) 0.36ms
+[I 161123 00:48:20 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[W 161123 00:48:24 web:1971] 405 GET /api/phonecode (127.0.0.1) 0.56ms
+[I 161123 00:48:45 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 00:48:49 web:1971] 200 GET /api/phonecode (127.0.0.1) 0.95ms
+[I 161123 00:53:34 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=058133e5-4265-43b0-849b-493c1f3e5e1f (127.0.0.1) 22.18ms
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:19 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:23 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:23 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:23 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:23 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:23 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:28 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:26:58 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[E 161123 16:27:58 http1connection:54] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/http1connection.py", line 238, in _read_message
+        delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/httpserver.py", line 289, in finish
+        self.delegate.finish()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2047, in finish
+        self.execute()
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 2067, in execute
+        **self.handler_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 43, in __init__
+        super(StaticFileHandler, self).__init__(self, *args, **kwargs)
+    TypeError: __init__() takes exactly 3 arguments (6 given)
+[I 161123 16:29:12 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py modified; restarting server
+[I 161123 16:29:24 web:1971] 304 GET / (127.0.0.1) 5.85ms
+[I 161123 16:29:24 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.96ms
+[I 161123 16:29:25 web:1971] 200 GET /favicon.ico (127.0.0.1) 0.86ms
+[I 161123 16:29:27 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.74ms
+[I 161123 16:29:27 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=e27a9508-f91c-4a38-8dd8-34d8d04e9016 (127.0.0.1) 28.66ms
+[I 161123 16:29:56 web:1971] 200 GET /api/imagecode?pcodeid=e27a9508-f91c-4a38-8dd8-34d8d04e9016&codeid=5db79490-5f84-44f2-96dc-c47c749d5ae2 (127.0.0.1) 6.31ms
+[I 161123 16:29:56 web:1971] 200 GET /api/imagecode?pcodeid=5db79490-5f84-44f2-96dc-c47c749d5ae2&codeid=fb8bde51-4c2f-4f15-a5b6-4a57da1623a1 (127.0.0.1) 6.52ms
+[I 161123 16:29:56 web:1971] 200 GET /api/imagecode?pcodeid=fb8bde51-4c2f-4f15-a5b6-4a57da1623a1&codeid=7ede2333-f1c6-4f1b-b620-7944f6d8f3ea (127.0.0.1) 5.51ms
+[I 161123 16:29:57 web:1971] 200 GET /api/imagecode?pcodeid=7ede2333-f1c6-4f1b-b620-7944f6d8f3ea&codeid=fd67879c-b8d8-4f55-b347-22a73612ba3d (127.0.0.1) 6.17ms
+[I 161123 16:29:57 web:1971] 200 GET /api/imagecode?pcodeid=fd67879c-b8d8-4f55-b347-22a73612ba3d&codeid=c0075b96-3f9d-4193-8ef2-637f36392d2f (127.0.0.1) 5.68ms
+[I 161123 16:29:57 web:1971] 200 GET /api/imagecode?pcodeid=c0075b96-3f9d-4193-8ef2-637f36392d2f&codeid=5c1b5e1a-f777-4713-b910-e1610c768434 (127.0.0.1) 6.33ms
+[W 161123 16:30:40 web:1971] 405 GET /api/smscode?mobile=15732608880&code=pw8s&codeId=5c1b5e1a-f777-4713-b910-e1610c768434 (127.0.0.1) 0.44ms
+[I 161123 16:40:44 web:1971] 304 GET /register.html (127.0.0.1) 5.33ms
+[I 161123 16:40:44 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=eb667540-80d1-40f7-b375-4fcb23540f48 (127.0.0.1) 19.59ms
+[I 161123 16:40:44 web:1971] 200 GET /favicon.ico (127.0.0.1) 0.68ms
+[W 161123 16:41:14 web:1971] 405 GET /api/smscode?mobile=15732608880&code=paet&codeId=eb667540-80d1-40f7-b375-4fcb23540f48 (127.0.0.1) 0.47ms
+[I 161123 16:43:27 web:1971] 304 GET /register.html (127.0.0.1) 1.26ms
+[I 161123 16:43:27 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.38ms
+[I 161123 16:43:27 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.33ms
+[I 161123 16:43:27 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.99ms
+[I 161123 16:43:27 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.51ms
+[I 161123 16:43:27 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.94ms
+[I 161123 16:43:27 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.57ms
+[I 161123 16:43:27 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.21ms
+[I 161123 16:43:27 web:1971] 200 GET /static/js/ihome/register.js (127.0.0.1) 0.85ms
+[I 161123 16:43:27 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.93ms
+[I 161123 16:43:27 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=bc4e64e0-43e2-4194-8d78-01852903efdb (127.0.0.1) 7.35ms
+[E 161123 16:43:42 web:1548] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '104', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'X-Xsrftoken': '2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Host': '127.0.0.1:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/register.html', 'Cookie': '_xsrf=2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1467, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py", line 43, in post
+        mobile = self.json_args.get("mobile")
+    AttributeError: 'SMSCodeHandler' object has no attribute 'json_args'
+[E 161123 16:43:42 web:1971] 500 POST /api/smscode (127.0.0.1) 1.35ms
+[I 161123 16:46:16 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py modified; restarting server
+[I 161123 16:50:30 web:1971] 304 GET /register.html (127.0.0.1) 3.86ms
+[I 161123 16:50:30 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.07ms
+[I 161123 16:50:30 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.83ms
+[I 161123 16:50:30 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.74ms
+[I 161123 16:50:30 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.80ms
+[I 161123 16:50:30 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.76ms
+[I 161123 16:50:30 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.99ms
+[I 161123 16:50:30 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.92ms
+[I 161123 16:50:30 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.75ms
+[I 161123 16:50:30 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.79ms
+[I 161123 16:50:31 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=f343efac-8051-40e4-a463-26130c55a165 (127.0.0.1) 22.92ms
+[I 161123 16:50:50 web:1971] 200 POST /api/smscode (127.0.0.1) 401.06ms
+[I 161123 16:56:55 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 16:57:02 web:1971] 200 POST /api/smscode (127.0.0.1) 1.44ms
+[I 161123 16:57:02 web:1971] 200 GET /api/imagecode?pcodeid=f343efac-8051-40e4-a463-26130c55a165&codeid=341fed94-0671-4e89-b6ac-9a760e501a5c (127.0.0.1) 14.78ms
+[D 161123 16:57:11 VerifyCode:76] sdfsssssssss
+[I 161123 16:57:11 web:1971] 200 POST /api/smscode (127.0.0.1) 399.59ms
+[I 161123 17:02:35 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCP.py modified; restarting server
+[I 161123 17:02:48 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:02:58 web:1971] 200 GET /api/imagecode?pcodeid=341fed94-0671-4e89-b6ac-9a760e501a5c&codeid=f56b2c28-668f-4c07-9cfa-03cc8f03a798 (127.0.0.1) 16.43ms
+[E 161123 17:03:05 VerifyCode:78] 'dict' object has no attribute 'data'
+[I 161123 17:03:05 web:1971] 200 POST /api/smscode (127.0.0.1) 320.15ms
+[I 161123 17:04:39 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCP.py modified; restarting server
+[I 161123 17:04:53 web:1971] 200 GET /api/imagecode?pcodeid=f56b2c28-668f-4c07-9cfa-03cc8f03a798&codeid=8e3222d0-4fc6-4e7c-8f45-882181550f8d (127.0.0.1) 15.33ms
+[E 161123 17:05:01 VerifyCode:78] 'dict' object has no attribute 'data'
+[I 161123 17:05:01 web:1971] 200 POST /api/smscode (127.0.0.1) 357.08ms
+[I 161123 17:07:53 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:08:40 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCP.py modified; restarting server
+[I 161123 17:08:43 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:08:53 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:09:01 web:1971] 200 GET /api/imagecode?pcodeid=8e3222d0-4fc6-4e7c-8f45-882181550f8d&codeid=cd2ec942-c620-49d7-bda9-2a17848ed038 (127.0.0.1) 19.14ms
+[E 161123 17:09:07 VerifyCode:78] 'dict' object has no attribute 'data'
+[I 161123 17:09:07 web:1971] 200 POST /api/smscode (127.0.0.1) 357.20ms
+[I 161123 17:12:05 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCP.py modified; restarting server
+[I 161123 17:14:48 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCPRestSDK.py modified; restarting server
+[I 161123 17:15:12 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:15:20 web:1971] 304 GET /register.html (127.0.0.1) 4.70ms
+[I 161123 17:15:20 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.00ms
+[I 161123 17:15:20 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.02ms
+[I 161123 17:15:20 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.85ms
+[I 161123 17:15:20 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.83ms
+[I 161123 17:15:20 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.95ms
+[I 161123 17:15:20 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.03ms
+[I 161123 17:15:20 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.93ms
+[I 161123 17:15:20 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.84ms
+[I 161123 17:15:20 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.11ms
+[I 161123 17:15:20 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=b6075a2f-04de-428b-86da-ae1d0e1e93ba (127.0.0.1) 20.52ms
+[D 161123 17:15:31 VerifyCode:77] {u'templateSMS': {u'smsMessageSid': u'0625d8afaad543249fbe8505fc81fdba', u'dateCreated': u'20161123171531'}, u'statusCode': u'000000'}
+[D 161123 17:15:31 VerifyCode:78] <type 'dict'>
+[I 161123 17:15:31 web:1971] 200 POST /api/smscode (127.0.0.1) 374.45ms
+[I 161123 17:16:35 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:16:42 web:1971] 200 GET /api/imagecode?pcodeid=b6075a2f-04de-428b-86da-ae1d0e1e93ba&codeid=b5eba0a4-9eeb-4d98-9b09-f3345a342775 (127.0.0.1) 16.64ms
+[D 161123 17:16:49 VerifyCode:77] 000000
+[D 161123 17:16:49 VerifyCode:78] <type 'dict'>
+[I 161123 17:16:49 web:1971] 200 POST /api/smscode (127.0.0.1) 395.88ms
+[I 161123 17:17:28 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:18:22 web:1971] 200 GET /api/imagecode?pcodeid=945308eb-f2fa-4751-9e6f-c92eca35041a&codeid=14ec251c-ced6-40ef-b34b-0ebd4860525c (127.0.0.1) 20.26ms
+[I 161123 17:18:27 web:1971] 200 GET /api/imagecode?pcodeid=14ec251c-ced6-40ef-b34b-0ebd4860525c&codeid=984af663-3764-49e0-8779-7cfc29a06a13 (127.0.0.1) 8.14ms
+[I 161123 17:18:33 web:1971] 200 POST /api/smscode (127.0.0.1) 420.86ms
+[I 161123 17:19:00 web:1971] 200 GET /api/imagecode?pcodeid=984af663-3764-49e0-8779-7cfc29a06a13&codeid=b13736da-6dbd-4027-9d3e-874079cb5027 (127.0.0.1) 8.37ms
+[D 161123 17:19:34 VerifyCode:77] 112310
+[D 161123 17:19:34 VerifyCode:78] <type 'dict'>
+[I 161123 17:19:34 web:1971] 200 POST /api/smscode (127.0.0.1) 415.30ms
+[I 161123 17:24:44 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:30:49 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:31:15 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:31:30 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:32:23 web:1971] 200 GET /api/imagecode?pcodeid=b13736da-6dbd-4027-9d3e-874079cb5027&codeid=46e3201a-2a20-4598-9694-40d73d9aa331 (127.0.0.1) 17.93ms
+[E 161123 17:32:35 VerifyCode:78] yuntongxun SMS is error
+[E 161123 17:32:35 VerifyCode:79] {u'statusMsg': u'\u3010\u77ed\u4fe1\u3011\u5e94\u7528\u672a\u4e0a\u7ebf\uff0c\u6a21\u677f\u77ed\u4fe1\u63a5\u6536\u53f7\u7801\u5916\u547c\u53d7\u9650', u'statusCode': u'112310'}
+[D 161123 17:32:35 VerifyCode:80] <type 'dict'>
+[I 161123 17:32:35 web:1971] 200 POST /api/smscode (127.0.0.1) 349.20ms
+[I 161123 17:32:50 web:1971] 200 GET /api/imagecode?pcodeid=46e3201a-2a20-4598-9694-40d73d9aa331&codeid=2eedff42-a919-472a-b2e6-5b40e23fcd64 (127.0.0.1) 8.40ms
+[E 161123 17:32:57 web:1548] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '104', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'X-Xsrftoken': '2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Host': '127.0.0.1:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/register.html', 'Cookie': '_xsrf=2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1467, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py", line 86, in post
+        self.redis.setex("sms_time_%d" % int(time()))
+    TypeError: setex() takes exactly 4 arguments (2 given)
+[E 161123 17:32:57 web:1971] 500 POST /api/smscode (127.0.0.1) 356.40ms
+[I 161123 17:37:39 autoreload:204] /home/jiu/Documents/tornado-zufang/constants.py modified; restarting server
+[I 161123 17:37:59 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:38:05 web:1971] 200 GET /api/imagecode?pcodeid=2eedff42-a919-472a-b2e6-5b40e23fcd64&codeid=04e4a984-4c54-4903-9d95-ef440e9531ec (127.0.0.1) 17.18ms
+[I 161123 17:38:45 web:1971] 304 GET /register.html (127.0.0.1) 2.80ms
+[I 161123 17:38:45 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.26ms
+[I 161123 17:38:45 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.00ms
+[I 161123 17:38:45 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.83ms
+[I 161123 17:38:45 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.80ms
+[I 161123 17:38:45 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.15ms
+[I 161123 17:38:45 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.98ms
+[I 161123 17:38:45 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.86ms
+[I 161123 17:38:45 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 1.57ms
+[I 161123 17:38:45 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.97ms
+[I 161123 17:38:45 web:1971] 304 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 3.49ms
+[I 161123 17:38:45 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=dfe5d9c5-6906-48cc-b96e-59bb7d7cb6e3 (127.0.0.1) 8.60ms
+[E 161123 17:38:57 web:1548] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '104', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'X-Xsrftoken': '2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Host': '127.0.0.1:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/register.html', 'Cookie': '_xsrf=2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1467, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py", line 86, in post
+        self.redis.setex("sms_time_%d" % mobile, SMS_CODE_FORBIDDEN_EXPIRES, int(time()))
+    TypeError: %d format: a number is required, not unicode
+[E 161123 17:38:57 web:1971] 500 POST /api/smscode (127.0.0.1) 396.05ms
+[I 161123 17:39:21 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:39:27 web:1971] 200 GET /api/imagecode?pcodeid=dfe5d9c5-6906-48cc-b96e-59bb7d7cb6e3&codeid=0dc7e0ff-2f60-4efd-b84b-c30195f76dd8 (127.0.0.1) 16.25ms
+[I 161123 17:39:44 web:1971] 304 GET /register.html (127.0.0.1) 4.04ms
+[I 161123 17:39:44 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.08ms
+[I 161123 17:39:44 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.79ms
+[I 161123 17:39:44 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.75ms
+[I 161123 17:39:44 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.78ms
+[I 161123 17:39:44 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.53ms
+[I 161123 17:39:45 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.97ms
+[I 161123 17:39:45 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.88ms
+[I 161123 17:39:45 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.85ms
+[I 161123 17:39:45 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.74ms
+[I 161123 17:39:45 web:1971] 304 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 0.87ms
+[I 161123 17:39:45 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=4cb4a809-2452-4914-9c22-f611e87cb99d (127.0.0.1) 19.69ms
+[E 161123 17:39:54 web:1548] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '104', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'X-Xsrftoken': '2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Host': '127.0.0.1:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/register.html', 'Cookie': '_xsrf=2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1467, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py", line 86, in post
+        self.redis.setex("sms_time_%s" % mobile, SMS_CODE_FORBIDDEN_EXPIRES, int(time()))
+    NameError: global name 'SMS_CODE_FORBIDDEN_EXPIRES' is not defined
+[E 161123 17:39:54 web:1971] 500 POST /api/smscode (127.0.0.1) 422.44ms
+[I 161123 17:40:17 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:40:28 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCPRestSDK.py modified; restarting server
+[I 161123 17:40:36 web:1971] 200 GET /api/imagecode?pcodeid=4cb4a809-2452-4914-9c22-f611e87cb99d&codeid=b0134f38-5cdc-4fb2-8c1e-c6821ca9078a (127.0.0.1) 17.68ms
+[I 161123 17:44:44 web:1971] 304 GET /register.html (127.0.0.1) 2.55ms
+[I 161123 17:44:44 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.23ms
+[I 161123 17:44:44 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.70ms
+[I 161123 17:44:44 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.97ms
+[I 161123 17:44:44 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.09ms
+[I 161123 17:44:44 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.79ms
+[I 161123 17:44:44 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.92ms
+[I 161123 17:44:44 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.69ms
+[I 161123 17:44:44 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.52ms
+[I 161123 17:44:44 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.60ms
+[I 161123 17:44:44 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=2df0d033-0a31-4128-b1a0-ce52c1b3109a (127.0.0.1) 6.90ms
+[I 161123 17:44:56 web:1971] 200 POST /api/smscode (127.0.0.1) 357.99ms
+[I 161123 17:50:24 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:54:25 web:1971] 200 GET /api/imagecode?pcodeid=2df0d033-0a31-4128-b1a0-ce52c1b3109a&codeid=60f6b945-bb6d-4854-8781-f8c73626f53c (127.0.0.1) 17.29ms
+[W 161123 17:55:54 web:1545] 403 POST /api/smscode (127.0.0.1): XSRF cookie does not match POST argument
+[W 161123 17:55:54 web:1971] 403 POST /api/smscode (127.0.0.1) 0.72ms
+[I 161123 17:56:34 web:1971] 200 GET /api/imagecode?pcodeid=60f6b945-bb6d-4854-8781-f8c73626f53c&codeid=d75cdb98-df53-4a8f-8ac3-33fe9646be23 (127.0.0.1) 8.21ms
+[E 161123 17:56:43 web:1548] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1:8000', 'Content-Length': '104', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'X-Xsrftoken': '2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Host': '127.0.0.1:8000', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1:8000/register.html', 'Cookie': '_xsrf=2|7629999f|0f3f826e33333d1811038ef80eed42bf|1479889764', 'Content-Type': 'application/json'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1467, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py", line 44, in post
+        if not self.redis.get("sms_time_%s" % mobile):
+    UnboundLocalError: local variable 'mobile' referenced before assignment
+[E 161123 17:56:43 web:1971] 500 POST /api/smscode (127.0.0.1) 1.54ms
+[I 161123 17:57:44 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 17:58:02 web:1971] 200 GET /api/imagecode?pcodeid=d75cdb98-df53-4a8f-8ac3-33fe9646be23&codeid=368f780e-8d13-47bf-ab40-12dc2c24cab9 (127.0.0.1) 15.80ms
+[I 161123 17:58:18 web:1971] 304 GET /register.html (127.0.0.1) 3.95ms
+[I 161123 17:58:18 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.06ms
+[I 161123 17:58:18 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.96ms
+[I 161123 17:58:18 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.90ms
+[I 161123 17:58:18 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.71ms
+[I 161123 17:58:18 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.65ms
+[I 161123 17:58:18 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.00ms
+[I 161123 17:58:18 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.01ms
+[I 161123 17:58:18 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.91ms
+[I 161123 17:58:18 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.47ms
+[I 161123 17:58:19 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=b2a26518-4d68-449d-b419-2685a6a5bc85 (127.0.0.1) 6.44ms
+[I 161123 17:58:34 web:1971] 200 POST /api/smscode (127.0.0.1) 1.08ms
+[I 161123 17:58:59 web:1971] 200 POST /api/smscode (127.0.0.1) 0.87ms
+[I 161123 18:00:54 web:1971] 200 GET /api/imagecode?pcodeid=b2a26518-4d68-449d-b419-2685a6a5bc85&codeid=ca515f1b-65a6-4e09-8faa-ceb2d5ff5889 (127.0.0.1) 8.06ms
+[I 161123 18:01:02 web:1971] 200 POST /api/smscode (127.0.0.1) 0.76ms
+[I 161123 18:02:25 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCP.py modified; restarting server
+[I 161123 18:04:08 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/VerifyCode.py modified; restarting server
+[I 161123 18:04:34 web:1971] 304 GET /register.html (127.0.0.1) 4.14ms
+[I 161123 18:04:34 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.15ms
+[I 161123 18:04:34 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.84ms
+[I 161123 18:04:34 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.75ms
+[I 161123 18:04:34 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.95ms
+[I 161123 18:04:34 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 0.80ms
+[I 161123 18:04:34 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.22ms
+[I 161123 18:04:34 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.85ms
+[I 161123 18:04:34 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.75ms
+[I 161123 18:04:34 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.53ms
+[I 161123 18:04:35 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=a8a69851-7ce2-4682-bcc6-7fc12038463c (127.0.0.1) 20.66ms
+[I 161123 18:04:47 web:1971] 200 POST /api/smscode (127.0.0.1) 451.07ms
