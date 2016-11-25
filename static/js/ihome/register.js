@@ -132,7 +132,7 @@ $(document).ready(function() {
             $("#mobile-err span").html("请填写正确的手机号！");
             $("#mobile-err").show();
             return;
-        } 
+        }
         if (!phoneCode) {
             $("#phone-code-err span").html("请填写短信验证码！");
             $("#phone-code-err").show();
@@ -148,5 +148,33 @@ $(document).ready(function() {
             $("#password2-err").show();
             return;
         }
+        var req_data_sgin = {
+            mobile:mobile, 
+            phoneCode:phoneCode, 
+            passwd:passwd,
+        };
+        $.ajax({
+            url:"/api/signup",
+            type:"POST",
+            data: JSON.stringify(req_data_sgin),
+            contentType:"application/json",
+            dataType:"json",
+            headers:{
+                "X-XSRFTOKEN":getCookie("_xsrf"),
+            },
+            success:function(data){
+                if ("0" != data.errno) {
+                    $("#phone-code-err span").html(data.errmsg); 
+                    $("#phone-code-err").show();
+                    // if ("4001" == data.errno || "4002" == data.errno || "4004" == data.errno) {
+                    //     generateImageCode();
+                    // }
+                    // $(".phonecode-a").attr("onclick", "sendSMSCode();");
+                }
+                else {
+                    window.location.href='/';
+                }
+            },
+        });
     });
 })

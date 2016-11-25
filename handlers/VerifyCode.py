@@ -49,6 +49,11 @@ class SMSCodeHandler(BaseHandler):
 		if not match(r'1\d{10}', mobile):
 			return self.write(dict(errno=RET.PARAMERR, errmsg="手机号格式错误"))
 
+		# 判断手机号是否已经注册
+		sql = "SELECT up_user_id FROM ih_user_profile WHERE up_mobile = %s"
+		if self.db.get(sql, mobile):
+			return self.write(dict(errno=RET.DATAEXIST, errmsg="该手机号已经注册过"))
+
 		# 判断距上次成功发送是否超过60秒
 		try:
 			self.redis.get("sms_time_%s" % mobile)

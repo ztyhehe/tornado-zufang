@@ -31,3 +31,7 @@ log_file = os.path.join(os.path.dirname(__file__), "logs/log")
 log_level = "debug"    # 显示级别
 
 session_expires = 86400 # session数据有效期，秒
+
+passwd_hash_key = "ihome@%^&" # 密码加密salt
+
+image_url_prefix = "http://oh6gz6lbk.bkt.clouddn.com/"# 七牛图片的域名

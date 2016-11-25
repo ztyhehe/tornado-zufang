@@ -30,7 +30,7 @@ class REST:
     ServerIP=''
     ServerPort=''
     SoftVersion=''
-    Iflog=False #是否打印日志
+    Iflog=True #是否打印日志
     Batch=''  #时间戳
     BodyType = 'json'#包体格式，可填值：json 、xml
     
