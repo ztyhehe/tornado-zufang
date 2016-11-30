@@ -75,3 +75,795 @@
 [E 161123 20:29:19 SignUpAndLogIn:50] 'StrictRedis' object has no attribute 'delect'
 [I 161123 20:29:19 web:1971] 200 POST /api/signup (127.0.0.1) 7.39ms
 [W 161123 20:29:20 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.44ms
+[I 161129 19:13:39 web:1971] 200 GET / (127.0.0.1) 5.85ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.81ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.23ms
+[I 161129 19:13:40 web:1971] 200 GET /static/css/reset.css (127.0.0.1) 1.00ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 1.22ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.29ms
+[I 161129 19:13:40 web:1971] 200 GET /static/css/ihome/main.css (127.0.0.1) 1.09ms
+[I 161129 19:13:40 web:1971] 200 GET /static/css/ihome/index.css (127.0.0.1) 1.11ms
+[I 161129 19:13:40 web:1971] 200 GET /static/js/jquery.min.js (127.0.0.1) 1.61ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.34ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.76ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.49ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.71ms
+[I 161129 19:13:40 web:1971] 200 GET /static/js/template.js (127.0.0.1) 0.73ms
+[I 161129 19:13:40 web:1971] 200 GET /static/js/ihome/index.js (127.0.0.1) 0.83ms
+[I 161129 19:13:40 web:1971] 200 GET /static/images/logo@128x59.png (127.0.0.1) 0.92ms
+[I 161129 19:13:40 web:1971] 200 GET /static/images/home01.jpg (127.0.0.1) 2.85ms
+[I 161129 19:13:40 web:1971] 200 GET /static/images/home02.jpg (127.0.0.1) 2.81ms
+[I 161129 19:13:40 web:1971] 200 GET /static/images/home03.jpg (127.0.0.1) 2.61ms
+[I 161129 19:13:40 web:1971] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 3.04ms
+[I 161129 19:13:46 web:1971] 200 GET /detail.html?id=3 (127.0.0.1) 0.90ms
+[I 161129 19:13:46 web:1971] 200 GET /static/css/ihome/detail.css (127.0.0.1) 1.18ms
+[I 161129 19:13:46 web:1971] 200 GET /static/images/landlord01.jpg (127.0.0.1) 0.98ms
+[I 161129 19:13:46 web:1971] 200 GET /static/js/ihome/detail.js (127.0.0.1) 1.06ms
+[I 161129 19:13:46 web:1971] 200 GET /static/images/houseicon_sprite.png (127.0.0.1) 0.92ms
+[W 161129 19:13:56 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.81ms
+[I 161129 19:13:56 web:1971] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 3.28ms
+[W 161129 19:14:23 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.79ms
+[W 161129 19:14:29 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 161129 19:14:31 web:1971] 200 GET /register.html (127.0.0.1) 3.06ms
+[I 161129 19:14:31 web:1971] 200 GET /static/css/ihome/register.css (127.0.0.1) 1.28ms
+[I 161129 19:14:31 web:1971] 200 GET /static/js/ihome/register.js (127.0.0.1) 1.14ms
+[I 161129 19:14:31 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=a1eccf96-0f08-4de0-aa05-0459d37d8f97 (127.0.0.1) 28.83ms
+[I 161129 19:14:50 web:1971] 200 POST /api/smscode (127.0.0.1) 2.08ms
+[E 161129 19:15:25 VerifyCode:96] 'statusCode'
+[I 161129 19:15:25 web:1971] 200 POST /api/smscode (127.0.0.1) 20010.29ms
+[I 161129 19:15:25 web:1971] 200 GET /api/imagecode?pcodeid=0028dd57-82de-4508-a18a-d012740a2c30&codeid=60b4ec8e-8ed0-4cf6-aa43-220559f7f2e7 (127.0.0.1) 6.06ms
+[I 161129 19:15:25 web:1971] 200 GET /api/imagecode?pcodeid=a1eccf96-0f08-4de0-aa05-0459d37d8f97&codeid=0028dd57-82de-4508-a18a-d012740a2c30 (127.0.0.1) 7.48ms
+[I 161129 19:15:26 web:1971] 200 GET /api/imagecode?pcodeid=60b4ec8e-8ed0-4cf6-aa43-220559f7f2e7&codeid=4851c757-362b-47d9-8677-69d3cee77118 (127.0.0.1) 8.24ms
+[I 161129 19:15:26 web:1971] 200 GET /api/imagecode?pcodeid=4851c757-362b-47d9-8677-69d3cee77118&codeid=4d98d501-0335-47d5-a985-8f0a505fe712 (127.0.0.1) 8.85ms
+[I 161129 19:15:27 web:1971] 200 GET /api/imagecode?pcodeid=4d98d501-0335-47d5-a985-8f0a505fe712&codeid=665860a5-5046-49dd-8800-d9ce5296cf8d (127.0.0.1) 7.45ms
+[I 161129 19:15:27 web:1971] 200 GET /api/imagecode?pcodeid=665860a5-5046-49dd-8800-d9ce5296cf8d&codeid=31a6e800-ada4-4f82-a9b2-a3e11d254501 (127.0.0.1) 7.42ms
+[E 161129 19:15:54 VerifyCode:96] 'statusCode'
+[I 161129 19:15:54 web:1971] 200 POST /api/smscode (127.0.0.1) 20015.56ms
+[I 161129 19:17:02 autoreload:204] /home/jiu/Documents/tornado-zufang/libs/yuntongxun/CCPRestSDK.py modified; restarting server
+[I 161130 10:45:05 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 4.93ms
+[E 161130 10:45:05 web:1548] Uncaught exception GET /api/imagecode?pcodeid=&codeid=e4b4256c-eaf3-40e6-b807-52f6d81a8c7f (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=&codeid=e4b4256c-eaf3-40e6-b807-52f6d81a8c7f', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:05 web:1971] 500 GET /api/imagecode?pcodeid=&codeid=e4b4256c-eaf3-40e6-b807-52f6d81a8c7f (127.0.0.1) 2.83ms
+[E 161130 10:45:09 web:1548] Uncaught exception GET /api/imagecode?pcodeid=e4b4256c-eaf3-40e6-b807-52f6d81a8c7f&codeid=b4dd0ae7-4802-4431-9431-0a481382d088 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=e4b4256c-eaf3-40e6-b807-52f6d81a8c7f&codeid=b4dd0ae7-4802-4431-9431-0a481382d088', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:09 web:1971] 500 GET /api/imagecode?pcodeid=e4b4256c-eaf3-40e6-b807-52f6d81a8c7f&codeid=b4dd0ae7-4802-4431-9431-0a481382d088 (127.0.0.1) 0.83ms
+[E 161130 10:45:13 web:1548] Uncaught exception GET /api/imagecode?pcodeid=b4dd0ae7-4802-4431-9431-0a481382d088&codeid=c4dfbc2e-8765-43ce-8996-261fa6acdc62 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=b4dd0ae7-4802-4431-9431-0a481382d088&codeid=c4dfbc2e-8765-43ce-8996-261fa6acdc62', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:13 web:1971] 500 GET /api/imagecode?pcodeid=b4dd0ae7-4802-4431-9431-0a481382d088&codeid=c4dfbc2e-8765-43ce-8996-261fa6acdc62 (127.0.0.1) 0.80ms
+[E 161130 10:45:13 web:1548] Uncaught exception GET /api/imagecode?pcodeid=c4dfbc2e-8765-43ce-8996-261fa6acdc62&codeid=1976bcea-6501-4ce9-a98f-7a218b53ebbf (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=c4dfbc2e-8765-43ce-8996-261fa6acdc62&codeid=1976bcea-6501-4ce9-a98f-7a218b53ebbf', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:13 web:1971] 500 GET /api/imagecode?pcodeid=c4dfbc2e-8765-43ce-8996-261fa6acdc62&codeid=1976bcea-6501-4ce9-a98f-7a218b53ebbf (127.0.0.1) 1.08ms
+[E 161130 10:45:13 web:1548] Uncaught exception GET /api/imagecode?pcodeid=1976bcea-6501-4ce9-a98f-7a218b53ebbf&codeid=ec65de28-44e0-4455-b554-11aab8f33f7d (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=1976bcea-6501-4ce9-a98f-7a218b53ebbf&codeid=ec65de28-44e0-4455-b554-11aab8f33f7d', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:13 web:1971] 500 GET /api/imagecode?pcodeid=1976bcea-6501-4ce9-a98f-7a218b53ebbf&codeid=ec65de28-44e0-4455-b554-11aab8f33f7d (127.0.0.1) 1.02ms
+[E 161130 10:45:14 web:1548] Uncaught exception GET /api/imagecode?pcodeid=ec65de28-44e0-4455-b554-11aab8f33f7d&codeid=c23a1194-1896-4f6d-b497-777a9b35e817 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=ec65de28-44e0-4455-b554-11aab8f33f7d&codeid=c23a1194-1896-4f6d-b497-777a9b35e817', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:14 web:1971] 500 GET /api/imagecode?pcodeid=ec65de28-44e0-4455-b554-11aab8f33f7d&codeid=c23a1194-1896-4f6d-b497-777a9b35e817 (127.0.0.1) 1.12ms
+[E 161130 10:45:14 web:1548] Uncaught exception GET /api/imagecode?pcodeid=c23a1194-1896-4f6d-b497-777a9b35e817&codeid=3338f7d6-6a00-4212-ac41-d9db7e0981ca (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=c23a1194-1896-4f6d-b497-777a9b35e817&codeid=3338f7d6-6a00-4212-ac41-d9db7e0981ca', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:14 web:1971] 500 GET /api/imagecode?pcodeid=c23a1194-1896-4f6d-b497-777a9b35e817&codeid=3338f7d6-6a00-4212-ac41-d9db7e0981ca (127.0.0.1) 1.16ms
+[E 161130 10:45:14 web:1548] Uncaught exception GET /api/imagecode?pcodeid=3338f7d6-6a00-4212-ac41-d9db7e0981ca&codeid=ef59cf81-0bc2-4231-9a0e-da0da7856bb8 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=3338f7d6-6a00-4212-ac41-d9db7e0981ca&codeid=ef59cf81-0bc2-4231-9a0e-da0da7856bb8', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:14 web:1971] 500 GET /api/imagecode?pcodeid=3338f7d6-6a00-4212-ac41-d9db7e0981ca&codeid=ef59cf81-0bc2-4231-9a0e-da0da7856bb8 (127.0.0.1) 0.99ms
+[E 161130 10:45:19 web:1548] Uncaught exception GET /api/imagecode?pcodeid=ef59cf81-0bc2-4231-9a0e-da0da7856bb8&codeid=677e2d06-54fe-411f-88bc-55c92849e8c6 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=ef59cf81-0bc2-4231-9a0e-da0da7856bb8&codeid=677e2d06-54fe-411f-88bc-55c92849e8c6', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:19 web:1971] 500 GET /api/imagecode?pcodeid=ef59cf81-0bc2-4231-9a0e-da0da7856bb8&codeid=677e2d06-54fe-411f-88bc-55c92849e8c6 (127.0.0.1) 1.14ms
+[E 161130 10:45:21 web:1548] Uncaught exception GET /api/imagecode?pcodeid=677e2d06-54fe-411f-88bc-55c92849e8c6&codeid=3ff70f63-8792-4415-b23c-a927c855e4b7 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=677e2d06-54fe-411f-88bc-55c92849e8c6&codeid=3ff70f63-8792-4415-b23c-a927c855e4b7', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:21 web:1971] 500 GET /api/imagecode?pcodeid=677e2d06-54fe-411f-88bc-55c92849e8c6&codeid=3ff70f63-8792-4415-b23c-a927c855e4b7 (127.0.0.1) 1.16ms
+[E 161130 10:45:21 web:1548] Uncaught exception GET /api/imagecode?pcodeid=3ff70f63-8792-4415-b23c-a927c855e4b7&codeid=0388196f-eee9-41ab-9c26-6d4b8b157209 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=3ff70f63-8792-4415-b23c-a927c855e4b7&codeid=0388196f-eee9-41ab-9c26-6d4b8b157209', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:21 web:1971] 500 GET /api/imagecode?pcodeid=3ff70f63-8792-4415-b23c-a927c855e4b7&codeid=0388196f-eee9-41ab-9c26-6d4b8b157209 (127.0.0.1) 1.13ms
+[E 161130 10:45:21 web:1548] Uncaught exception GET /api/imagecode?pcodeid=0388196f-eee9-41ab-9c26-6d4b8b157209&codeid=890150a4-3119-4fa3-9455-10aade0fc185 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=0388196f-eee9-41ab-9c26-6d4b8b157209&codeid=890150a4-3119-4fa3-9455-10aade0fc185', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:21 web:1971] 500 GET /api/imagecode?pcodeid=0388196f-eee9-41ab-9c26-6d4b8b157209&codeid=890150a4-3119-4fa3-9455-10aade0fc185 (127.0.0.1) 1.18ms
+[E 161130 10:45:21 web:1548] Uncaught exception GET /api/imagecode?pcodeid=890150a4-3119-4fa3-9455-10aade0fc185&codeid=5a86b129-5e2a-44c1-9722-4537c4b35a17 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=890150a4-3119-4fa3-9455-10aade0fc185&codeid=5a86b129-5e2a-44c1-9722-4537c4b35a17', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:21 web:1971] 500 GET /api/imagecode?pcodeid=890150a4-3119-4fa3-9455-10aade0fc185&codeid=5a86b129-5e2a-44c1-9722-4537c4b35a17 (127.0.0.1) 1.06ms
+[E 161130 10:45:21 web:1548] Uncaught exception GET /api/imagecode?pcodeid=5a86b129-5e2a-44c1-9722-4537c4b35a17&codeid=615d3646-47a5-4127-80d9-37babbbb7fc6 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?pcodeid=5a86b129-5e2a-44c1-9722-4537c4b35a17&codeid=615d3646-47a5-4127-80d9-37babbbb7fc6', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Host': '127.0.0.1:8000', 'Accept': 'image/webp,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Referer': 'http://127.0.0.1:8000/register.html'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 10:45:21 web:1971] 500 GET /api/imagecode?pcodeid=5a86b129-5e2a-44c1-9722-4537c4b35a17&codeid=615d3646-47a5-4127-80d9-37babbbb7fc6 (127.0.0.1) 1.31ms
+[I 161130 10:48:00 web:1971] 304 GET /register.html (127.0.0.1) 9.18ms
+[I 161130 10:48:00 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.52ms
+[I 161130 10:48:00 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.26ms
+[I 161130 10:48:00 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.95ms
+[I 161130 10:48:00 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.93ms
+[I 161130 10:48:00 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.06ms
+[I 161130 10:48:00 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.58ms
+[I 161130 10:48:00 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 3.02ms
+[I 161130 10:48:00 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.76ms
+[I 161130 10:48:00 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.95ms
+[I 161130 10:48:01 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=028fce59-f17f-433d-8d57-b234bf787642 (127.0.0.1) 35.79ms
+[I 161130 10:48:18 web:1971] 200 POST /api/smscode (127.0.0.1) 9.09ms
+[I 161130 10:50:09 web:1971] 200 POST /api/smscode (127.0.0.1) 1.45ms
+[I 161130 10:50:09 web:1971] 200 GET /api/imagecode?pcodeid=028fce59-f17f-433d-8d57-b234bf787642&codeid=ff3dc881-f6fe-43fa-b4de-8af1c6dfb1ee (127.0.0.1) 7.83ms
+[I 161130 10:50:17 web:1971] 200 GET /api/imagecode?pcodeid=ff3dc881-f6fe-43fa-b4de-8af1c6dfb1ee&codeid=675f8e8d-6f66-49de-af7a-9827efd5be75 (127.0.0.1) 7.59ms
+[I 161130 10:51:57 web:1971] 200 POST /api/smscode (127.0.0.1) 1045.27ms
+[E 161130 10:52:32 SignUpAndLogIn:54] 'StrictRedis' object has no attribute 'delect'
+[E 161130 10:52:32 SignUpAndLogIn:64] global name 'Session' is not defined
+[I 161130 10:52:32 web:1971] 200 POST /api/signup (127.0.0.1) 14.14ms
+[W 161130 10:52:33 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.37ms
+[I 161130 10:54:34 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/SignUpAndLogIn.py modified; restarting server
+[I 161130 10:55:34 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=3c526aba-7af4-4859-a1db-c4e016f0fcc2 (127.0.0.1) 24.35ms
+[I 161130 10:55:51 web:1971] 200 POST /api/smscode (127.0.0.1) 376.91ms
+[I 161130 10:56:15 web:1971] 200 POST /api/signup (127.0.0.1) 1.14ms
+[E 161130 10:56:39 SignUpAndLogIn:54] 'StrictRedis' object has no attribute 'delect'
+[E 161130 10:56:39 SignUpAndLogIn:64] global name 'Session' is not defined
+[I 161130 10:56:39 web:1971] 200 POST /api/signup (127.0.0.1) 14.23ms
+[W 161130 10:56:40 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.17ms
+[I 161130 14:35:13 web:1971] 200 GET /login.html (127.0.0.1) 5.59ms
+[I 161130 14:35:13 web:1971] 200 GET /static/css/ihome/login.css (127.0.0.1) 1.08ms
+[I 161130 14:35:13 web:1971] 200 GET /static/js/ihome/login.js (127.0.0.1) 1.09ms
+[W 161130 14:35:16 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.18ms
+[I 161130 14:42:38 web:1971] 304 GET /login.html (127.0.0.1) 0.84ms
+[I 161130 14:42:38 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.24ms
+[I 161130 14:42:38 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.24ms
+[I 161130 14:42:38 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.74ms
+[I 161130 14:42:38 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.70ms
+[I 161130 14:42:38 web:1971] 304 GET /static/css/ihome/login.css (127.0.0.1) 0.76ms
+[I 161130 14:42:39 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.96ms
+[I 161130 14:42:39 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.82ms
+[I 161130 14:42:39 web:1971] 200 GET /static/js/ihome/login.js (127.0.0.1) 0.91ms
+[I 161130 14:42:39 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.63ms
+[I 161130 14:42:46 web:1971] 304 GET /login.html (127.0.0.1) 0.63ms
+[I 161130 14:42:46 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.80ms
+[I 161130 14:42:46 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.62ms
+[I 161130 14:42:46 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.55ms
+[I 161130 14:42:46 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.72ms
+[I 161130 14:42:46 web:1971] 304 GET /static/css/ihome/login.css (127.0.0.1) 0.49ms
+[I 161130 14:42:46 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.40ms
+[I 161130 14:42:46 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.89ms
+[I 161130 14:42:46 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 0.87ms
+[I 161130 14:42:46 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.59ms
+[I 161130 14:42:56 web:1971] 200 POST /api/login (127.0.0.1) 0.67ms
+[I 161130 14:45:03 web:1971] 200 POST /api/login (127.0.0.1) 0.69ms
+[I 161130 14:45:53 web:1971] 304 GET / (127.0.0.1) 2.78ms
+[I 161130 14:45:53 web:1971] 200 GET / (127.0.0.1) 0.95ms
+[I 161130 14:45:53 web:1971] 200 GET / (127.0.0.1) 0.89ms
+[I 161130 14:45:53 web:1971] 200 GET / (127.0.0.1) 0.96ms
+[I 161130 14:45:53 web:1971] 200 GET / (127.0.0.1) 1.02ms
+[I 161130 14:45:53 web:1971] 200 GET / (127.0.0.1) 1.21ms
+[I 161130 14:45:53 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 1.03ms
+[W 161130 14:45:54 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.64ms
+[I 161130 14:46:48 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 0.66ms
+[I 161130 14:50:30 autoreload:204] /home/jiu/Documents/tornado-zufang/config.py modified; restarting server
+[I 161130 14:51:04 web:1971] 200 POST /api/login (127.0.0.1) 0.76ms
+[E 161130 14:52:24 web:1548] Uncaught exception POST /api/login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/login', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop', 'Content-Length': '41', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded', 'Postman-Token': 'da3be1b7-f9b1-9d4d-92b0-360e374b39b2'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 14:52:24 web:1971] 500 POST /api/login (127.0.0.1) 2.82ms
+[E 161130 14:53:56 web:1548] Uncaught exception POST /api/login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/login', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop', 'Content-Length': '52', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache', 'Content-Type': 'application/json', 'Postman-Token': '63760490-0574-e133-9836-d078da60c9d1'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 14:53:56 web:1971] 500 POST /api/login (127.0.0.1) 1.19ms
+[E 161130 14:54:24 web:1548] Uncaught exception POST /api/login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/login', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop', 'Content-Length': '52', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache', 'Content-Type': 'application/json', 'Postman-Token': '2831e793-9f74-0502-ac8c-496eb3364b30'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 14:54:24 web:1971] 500 POST /api/login (127.0.0.1) 2.09ms
+[E 161130 14:54:39 web:1548] Uncaught exception POST /api/login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/login', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop', 'Content-Length': '52', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1:8000', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.100 Safari/537.36', 'Dnt': '1', 'Connection': 'keep-alive', 'Cache-Control': 'no-cache', 'Content-Type': 'application/json', 'Postman-Token': 'b20d4d85-633d-a347-3fff-85f7ceffadb8'})
+    Traceback (most recent call last):
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1446, in _execute
+        result = self.prepare()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 21, in prepare
+        self.xsrf_token
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1190, in xsrf_token
+        expires_days = 30 if self.current_user else None
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1115, in current_user
+        self._current_user = self.get_current_user()
+      File "/home/jiu/Documents/tornado-zufang/handlers/BaseHandler.py", line 40, in get_current_user
+        self.session = Session(self)
+      File "/home/jiu/Documents/tornado-zufang/utils/session.py", line 14, in __init__
+        self.session_id = self.request_handler.get_secure_cookie("session_id")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 651, in get_secure_cookie
+        self.require_setting("cookie_secret", "secure cookies")
+      File "/home/jiu/.virtualenvs/tornado_py2/local/lib/python2.7/site-packages/tornado/web.py", line 1348, in require_setting
+        "application to use %s" % (name, feature))
+    Exception: You must define the 'cookie_secret' setting in your application to use secure cookies
+[E 161130 14:54:39 web:1971] 500 POST /api/login (127.0.0.1) 1.02ms
+[W 161130 14:55:49 web:1971] 405 POST / (127.0.0.1) 0.97ms
+[I 161130 14:55:59 web:1971] 200 GET / (127.0.0.1) 6.83ms
+[I 161130 14:56:13 web:1971] 200 POST /api/login (127.0.0.1) 0.61ms
+[I 161130 14:57:08 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=c5f77020-62bc-4186-806d-625200b7cb3a (127.0.0.1) 18.93ms
+[I 161130 14:58:36 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/SignUpAndLogIn.py modified; restarting server
+[I 161130 15:01:39 web:1971] 304 GET /register.html (127.0.0.1) 8.16ms
+[I 161130 15:01:39 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.05ms
+[I 161130 15:01:39 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.95ms
+[I 161130 15:01:39 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.79ms
+[I 161130 15:01:39 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.87ms
+[I 161130 15:01:39 web:1971] 304 GET /static/css/ihome/register.css (127.0.0.1) 1.12ms
+[I 161130 15:01:39 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.05ms
+[I 161130 15:01:39 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.99ms
+[I 161130 15:01:39 web:1971] 304 GET /static/js/ihome/register.js (127.0.0.1) 0.62ms
+[I 161130 15:01:39 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.31ms
+[I 161130 15:01:40 web:1971] 200 GET /api/imagecode?pcodeid=&codeid=9af099f9-05ac-4a6a-b744-71f86bb9b788 (127.0.0.1) 18.97ms
+[I 161130 15:01:48 web:1971] 200 POST /api/login (127.0.0.1) 0.95ms
+[E 161130 15:01:59 SignUpAndLogIn:88] You must define the 'cookie_secret' setting in your application to use secure cookies
+[I 161130 15:01:59 web:1971] 200 POST /api/login (127.0.0.1) 1.28ms
+[I 161130 15:02:04 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 0.51ms
+[E 161130 15:02:15 SignUpAndLogIn:88] You must define the 'cookie_secret' setting in your application to use secure cookies
+[I 161130 15:02:15 web:1971] 200 POST /api/login (127.0.0.1) 1.34ms
+[W 161130 15:02:15 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.87ms
+[I 161130 15:06:06 autoreload:204] /home/jiu/Documents/tornado-zufang/utils/session.py modified; restarting server
+[I 161130 15:08:43 autoreload:204] /home/jiu/Documents/tornado-zufang/utils/session.py modified; restarting server
+[I 161130 15:09:27 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 6.97ms
+[E 161130 15:09:29 SignUpAndLogIn:88] You must define the 'cookie_secret' setting in your application to use secure cookies
+[I 161130 15:09:29 web:1971] 200 POST /api/login (127.0.0.1) 1.91ms
+[W 161130 15:09:29 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.60ms
+[I 161130 15:12:35 autoreload:204] /home/jiu/Documents/tornado-zufang/config.py modified; restarting server
+[I 161130 15:12:45 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 6.88ms
+[I 161130 15:12:47 web:1971] 200 POST /api/login (127.0.0.1) 3.17ms
+[W 161130 15:12:48 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.24ms
+[I 161130 15:15:48 autoreload:204] /home/jiu/Documents/tornado-zufang/utils/common.py modified; restarting server
+[I 161130 15:17:46 web:1971] 304 GET / (127.0.0.1) 7.62ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.05ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.86ms
+[I 161130 15:17:46 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 1.13ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 2.62ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.73ms
+[I 161130 15:17:46 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.50ms
+[I 161130 15:17:46 web:1971] 304 GET /static/css/ihome/index.css (127.0.0.1) 1.04ms
+[I 161130 15:17:46 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.18ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.59ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.22ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.22ms
+[I 161130 15:17:46 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.76ms
+[I 161130 15:17:46 web:1971] 304 GET /static/js/template.js (127.0.0.1) 0.83ms
+[I 161130 15:17:46 web:1971] 200 GET /static/js/ihome/index.js (127.0.0.1) 1.24ms
+[I 161130 15:17:46 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.58ms
+[I 161130 15:17:46 web:1971] 304 GET /static/images/home01.jpg (127.0.0.1) 2.54ms
+[I 161130 15:17:46 web:1971] 304 GET /static/images/home02.jpg (127.0.0.1) 2.38ms
+[I 161130 15:17:46 web:1971] 304 GET /static/images/home03.jpg (127.0.0.1) 1.67ms
+[W 161130 15:17:46 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.18ms
+[I 161130 15:17:46 web:1971] 200 GET /api/check_login (127.0.0.1) 1.81ms
+[W 161130 15:17:46 web:1971] 404 GET /api/house/index (127.0.0.1) 1.07ms
+[I 161130 15:19:46 autoreload:204] /home/jiu/Documents/tornado-zufang/urls.py modified; restarting server
+[I 161130 15:29:04 web:1971] 304 GET / (127.0.0.1) 4.49ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.07ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.88ms
+[I 161130 15:29:04 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.61ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 0.94ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.84ms
+[I 161130 15:29:04 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.79ms
+[I 161130 15:29:04 web:1971] 304 GET /static/css/ihome/index.css (127.0.0.1) 1.30ms
+[I 161130 15:29:04 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.13ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.27ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.10ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.75ms
+[I 161130 15:29:04 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.59ms
+[I 161130 15:29:04 web:1971] 304 GET /static/js/template.js (127.0.0.1) 0.63ms
+[I 161130 15:29:04 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.79ms
+[I 161130 15:29:04 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.62ms
+[I 161130 15:29:04 web:1971] 304 GET /static/images/home01.jpg (127.0.0.1) 1.56ms
+[I 161130 15:29:04 web:1971] 304 GET /static/images/home02.jpg (127.0.0.1) 1.80ms
+[I 161130 15:29:04 web:1971] 304 GET /static/images/home03.jpg (127.0.0.1) 1.16ms
+[I 161130 15:29:05 web:1971] 200 GET /api/check_login (127.0.0.1) 0.63ms
+[E 161130 15:29:05 House:188] 'module' object has no attribute 'HOME_PAGE_MAX_HOUSES'
+[I 161130 15:29:05 web:1971] 200 GET /api/house/index (127.0.0.1) 1.31ms
+[W 161130 15:29:05 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.81ms
+[I 161130 15:29:07 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 0.93ms
+[I 161130 15:29:09 web:1971] 200 POST /api/login (127.0.0.1) 2.16ms
+[I 161130 15:29:10 web:1971] 200 GET /api/check_login (127.0.0.1) 1.89ms
+[E 161130 15:29:10 House:188] 'module' object has no attribute 'HOME_PAGE_MAX_HOUSES'
+[I 161130 15:29:10 web:1971] 304 GET /api/house/index (127.0.0.1) 1.34ms
+[W 161130 15:29:10 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.96ms
+[I 161130 15:33:10 autoreload:204] /home/jiu/Documents/tornado-zufang/constants.py modified; restarting server
+[I 161130 15:33:15 web:1971] 304 GET / (127.0.0.1) 4.87ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.29ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.14ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 0.87ms
+[I 161130 15:33:15 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.77ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.93ms
+[I 161130 15:33:15 web:1971] 304 GET /static/css/ihome/index.css (127.0.0.1) 0.79ms
+[I 161130 15:33:15 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.84ms
+[I 161130 15:33:15 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.05ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.05ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 0.73ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.79ms
+[I 161130 15:33:15 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.03ms
+[I 161130 15:33:15 web:1971] 304 GET /static/js/template.js (127.0.0.1) 0.75ms
+[I 161130 15:33:15 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.84ms
+[I 161130 15:33:15 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.86ms
+[I 161130 15:33:15 web:1971] 304 GET /static/images/home01.jpg (127.0.0.1) 1.79ms
+[I 161130 15:33:15 web:1971] 304 GET /static/images/home02.jpg (127.0.0.1) 2.01ms
+[I 161130 15:33:15 web:1971] 304 GET /static/images/home03.jpg (127.0.0.1) 1.79ms
+[I 161130 15:33:15 web:1971] 200 GET /api/check_login (127.0.0.1) 1.12ms
+[I 161130 15:33:15 web:1971] 200 GET /api/house/index (127.0.0.1) 3.87ms
+[W 161130 15:33:15 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.28ms
+[I 161130 15:33:19 web:1971] 200 POST /api/login (127.0.0.1) 1.62ms
+[I 161130 15:33:20 web:1971] 200 GET /api/check_login (127.0.0.1) 1.68ms
+[I 161130 15:33:20 web:1971] 304 GET /api/house/index (127.0.0.1) 1.58ms
+[W 161130 15:33:20 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.85ms
+[I 161130 15:34:33 web:1971] 200 GET /search.html?aid=&aname=&sd=&ed= (127.0.0.1) 3.07ms
+[I 161130 15:34:33 web:1971] 200 GET /static/css/ihome/search.css (127.0.0.1) 1.22ms
+[W 161130 15:34:33 web:1971] 404 GET /static/images/landlord01.jgp (127.0.0.1) 0.91ms
+[I 161130 15:34:33 web:1971] 200 GET /static/js/ihome/search.js (127.0.0.1) 1.13ms
+[I 161130 15:34:37 web:1971] 200 GET /detail.html?id=1 (127.0.0.1) 2.76ms
+[I 161130 15:34:37 web:1971] 304 GET /static/js/ihome/detail.js (127.0.0.1) 0.88ms
+[W 161130 15:34:37 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.98ms
+[W 161130 15:35:11 web:1971] 404 GET /my (127.0.0.1) 1.01ms
+[I 161130 15:35:51 web:1971] 200 GET /my.html (127.0.0.1) 0.96ms
+[I 161130 15:35:51 web:1971] 200 GET /static/css/ihome/my.css (127.0.0.1) 1.26ms
+[I 161130 15:35:51 web:1971] 200 GET /static/js/ihome/my.js (127.0.0.1) 2.36ms
+[I 161130 15:37:00 web:1971] 304 GET /my.html (127.0.0.1) 0.73ms
+[I 161130 15:37:00 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.16ms
+[I 161130 15:37:00 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.87ms
+[I 161130 15:37:00 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.96ms
+[I 161130 15:37:00 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.91ms
+[I 161130 15:37:00 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.92ms
+[I 161130 15:37:00 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[I 161130 15:37:00 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.08ms
+[I 161130 15:37:00 web:1971] 304 GET /static/css/ihome/my.css (127.0.0.1) 0.80ms
+[I 161130 15:37:00 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.92ms
+[I 161130 15:37:00 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.60ms
+[I 161130 15:37:00 web:1971] 200 GET /static/js/ihome/my.js (127.0.0.1) 0.65ms
+[I 161130 15:37:00 web:1971] 200 GET /api/profile (127.0.0.1) 0.43ms
+[I 161130 15:37:00 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 0.62ms
+[I 161130 15:37:03 web:1971] 200 POST /api/login (127.0.0.1) 1.67ms
+[I 161130 15:37:03 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.80ms
+[I 161130 15:37:03 web:1971] 304 GET /api/check_login (127.0.0.1) 0.89ms
+[I 161130 15:37:03 web:1971] 304 GET /api/house/index (127.0.0.1) 1.49ms
+[W 161130 15:37:03 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.62ms
+[I 161130 15:37:11 web:1971] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.75ms
+[I 161130 15:37:12 web:1971] 304 GET /api/profile (127.0.0.1) 0.44ms
+[I 161130 15:38:36 web:1971] 200 POST /api/login (127.0.0.1) 1.70ms
+[I 161130 15:38:37 web:1971] 304 GET /api/check_login (127.0.0.1) 1.36ms
+[I 161130 15:38:37 web:1971] 304 GET /api/house/index (127.0.0.1) 1.79ms
+[W 161130 15:38:37 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.96ms
+[I 161130 15:40:02 web:1971] 304 GET / (127.0.0.1) 0.67ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.54ms
+[I 161130 15:40:02 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.72ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.79ms
+[I 161130 15:40:02 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.81ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.83ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 0.89ms
+[I 161130 15:40:02 web:1971] 304 GET /static/css/ihome/index.css (127.0.0.1) 0.88ms
+[I 161130 15:40:02 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.09ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.51ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.97ms
+[I 161130 15:40:02 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.07ms
+[I 161130 15:40:03 web:1971] 304 GET /static/js/template.js (127.0.0.1) 1.46ms
+[I 161130 15:40:03 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.83ms
+[I 161130 15:40:03 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.72ms
+[I 161130 15:40:03 web:1971] 304 GET /static/images/home01.jpg (127.0.0.1) 1.71ms
+[I 161130 15:40:03 web:1971] 304 GET /static/images/home02.jpg (127.0.0.1) 1.66ms
+[I 161130 15:40:03 web:1971] 304 GET /static/images/home03.jpg (127.0.0.1) 1.47ms
+[I 161130 15:40:03 web:1971] 200 GET /api/check_login (127.0.0.1) 0.66ms
+[I 161130 15:40:03 web:1971] 304 GET /api/house/index (127.0.0.1) 1.20ms
+[W 161130 15:40:03 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.84ms
+[I 161130 15:40:06 web:1971] 200 POST /api/login (127.0.0.1) 1.61ms
+[I 161130 15:40:07 web:1971] 200 GET /api/check_login (127.0.0.1) 0.99ms
+[I 161130 15:40:07 web:1971] 304 GET /api/house/index (127.0.0.1) 1.28ms
+[W 161130 15:40:07 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.79ms
+[I 161130 15:40:50 web:1971] 304 GET / (127.0.0.1) 0.59ms
+[I 161130 15:40:50 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 0.96ms
+[I 161130 15:40:50 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.63ms
+[I 161130 15:40:50 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.64ms
+[I 161130 15:40:50 web:1971] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 1.15ms
+[I 161130 15:40:50 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.70ms
+[I 161130 15:40:50 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.77ms
+[I 161130 15:40:50 web:1971] 304 GET /static/css/ihome/index.css (127.0.0.1) 0.99ms
+[I 161130 15:40:50 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.01ms
+[I 161130 15:40:50 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.86ms
+[I 161130 15:40:51 web:1971] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.40ms
+[I 161130 15:40:51 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.92ms
+[I 161130 15:40:51 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.76ms
+[I 161130 15:40:51 web:1971] 304 GET /static/js/template.js (127.0.0.1) 1.64ms
+[I 161130 15:40:51 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.86ms
+[I 161130 15:40:51 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 1.81ms
+[I 161130 15:40:51 web:1971] 304 GET /static/images/home01.jpg (127.0.0.1) 1.88ms
+[I 161130 15:40:51 web:1971] 304 GET /static/images/home02.jpg (127.0.0.1) 2.49ms
+[I 161130 15:40:51 web:1971] 304 GET /static/images/home03.jpg (127.0.0.1) 2.88ms
+[I 161130 15:40:51 web:1971] 200 GET /api/check_login (127.0.0.1) 0.76ms
+[I 161130 15:40:51 web:1971] 304 GET /api/house/index (127.0.0.1) 1.50ms
+[W 161130 15:40:51 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.77ms
+[I 161130 15:40:58 web:1971] 200 POST /api/login (127.0.0.1) 1.79ms
+[I 161130 15:40:59 web:1971] 200 GET /api/check_login (127.0.0.1) 1.15ms
+[I 161130 15:40:59 web:1971] 304 GET /api/house/index (127.0.0.1) 1.25ms
+[W 161130 15:40:59 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.70ms
+[I 161130 15:42:05 autoreload:204] /home/jiu/Documents/tornado-zufang/handlers/SignUpAndLogIn.py modified; restarting server
+[I 161130 15:42:28 web:1971] 304 GET / (127.0.0.1) 2.98ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.03ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.78ms
+[I 161130 15:42:28 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.96ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 0.88ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.88ms
+[I 161130 15:42:28 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.83ms
+[I 161130 15:42:28 web:1971] 304 GET /static/css/ihome/index.css (127.0.0.1) 0.94ms
+[I 161130 15:42:28 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.22ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.86ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 0.93ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.00ms
+[I 161130 15:42:28 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 0.93ms
+[I 161130 15:42:28 web:1971] 304 GET /static/js/template.js (127.0.0.1) 0.93ms
+[I 161130 15:42:28 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.97ms
+[I 161130 15:42:28 web:1971] 304 GET /static/images/logo@128x59.png (127.0.0.1) 0.59ms
+[I 161130 15:42:28 web:1971] 304 GET /static/images/home01.jpg (127.0.0.1) 1.37ms
+[I 161130 15:42:28 web:1971] 304 GET /static/images/home02.jpg (127.0.0.1) 1.50ms
+[I 161130 15:42:28 web:1971] 304 GET /static/images/home03.jpg (127.0.0.1) 1.27ms
+[I 161130 15:42:29 web:1971] 200 GET /api/check_login (127.0.0.1) 0.93ms
+[I 161130 15:42:29 web:1971] 304 GET /api/house/index (127.0.0.1) 1.90ms
+[W 161130 15:42:29 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 2.83ms
+[I 161130 15:42:30 web:1971] 304 GET /static/js/ihome/login.js (127.0.0.1) 0.94ms
+[I 161130 15:42:32 web:1971] 200 POST /api/login (127.0.0.1) 2.40ms
+[I 161130 15:42:32 web:1971] 200 GET /api/check_login (127.0.0.1) 0.70ms
+[I 161130 15:42:32 web:1971] 304 GET /api/house/index (127.0.0.1) 1.33ms
+[W 161130 15:42:32 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.88ms
+[I 161130 15:42:39 web:1971] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.87ms
+[I 161130 15:42:39 web:1971] 200 GET /api/profile (127.0.0.1) 1.31ms
+[I 161130 15:42:44 web:1971] 200 GET /profile.html (127.0.0.1) 3.12ms
+[I 161130 15:42:44 web:1971] 200 GET /static/css/ihome/profile.css (127.0.0.1) 1.01ms
+[I 161130 15:42:44 web:1971] 200 GET /static/js/jquery.form.min.js (127.0.0.1) 1.04ms
+[I 161130 15:42:44 web:1971] 200 GET /static/js/ihome/profile.js (127.0.0.1) 1.17ms
+[E 161130 15:42:49 Profile:19] 'avatar'
+[I 161130 15:42:49 web:1971] 200 POST /api/profile/avatar (127.0.0.1) 1.24ms
+[E 161130 15:43:48 Profile:19] 'avatar'
+[I 161130 15:43:48 web:1971] 200 POST /api/profile/avatar (127.0.0.1) 1.24ms
+[I 161130 15:43:58 web:1971] 200 GET /auth.html (127.0.0.1) 2.86ms
+[I 161130 15:43:59 web:1971] 200 GET /static/js/ihome/auth.js (127.0.0.1) 1.71ms
+[W 161130 15:44:19 web:1971] 405 POST /auth.html (127.0.0.1) 0.63ms
+[W 161130 15:44:34 web:1971] 405 POST /auth.html (127.0.0.1) 0.76ms
+[I 161130 15:45:18 web:1971] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.90ms
+[I 161130 15:45:18 web:1971] 304 GET /api/profile (127.0.0.1) 1.40ms
+[W 161130 15:49:36 web:1971] 405 POST /auth.html (127.0.0.1) 1.71ms
+[W 161130 15:51:20 web:1971] 405 POST /auth.html (127.0.0.1) 0.67ms
+[I 161130 15:52:02 web:1971] 304 GET /auth.html (127.0.0.1) 3.67ms
+[I 161130 15:52:02 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.22ms
+[I 161130 15:52:02 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.87ms
+[I 161130 15:52:02 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.83ms
+[I 161130 15:52:02 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.82ms
+[I 161130 15:52:02 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 0.80ms
+[I 161130 15:52:02 web:1971] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.85ms
+[I 161130 15:52:02 web:1971] 304 GET /static/css/ihome/profile.css (127.0.0.1) 1.10ms
+[I 161130 15:52:02 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.04ms
+[I 161130 15:52:02 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.49ms
+[I 161130 15:52:02 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.00ms
+[I 161130 15:52:02 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.10ms
+[I 161130 15:52:02 web:1971] 200 GET /static/js/ihome/auth.js (127.0.0.1) 0.85ms
+[D 161130 15:52:03 Profile:82] {'up_id_card': None, 'up_real_name': None}
+[I 161130 15:52:03 web:1971] 200 GET /api/profile/auth (127.0.0.1) 2.29ms
+[I 161130 15:52:17 web:1971] 200 POST /api/profile/auth (127.0.0.1) 13.77ms
+[I 161130 15:52:20 web:1971] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.88ms
+[I 161130 15:52:20 web:1971] 304 GET /api/profile (127.0.0.1) 2.37ms
+[I 161130 15:52:25 web:1971] 200 GET /myhouse.html (127.0.0.1) 3.43ms
+[I 161130 15:52:25 web:1971] 200 GET /static/css/ihome/myhouse.css (127.0.0.1) 1.19ms
+[I 161130 15:52:25 web:1971] 200 GET /static/js/ihome/myhouse.js (127.0.0.1) 0.90ms
+[D 161130 15:52:25 Profile:82] {'up_id_card': u'123456789012345678', 'up_real_name': u'\u7231\u4e0a\u6253\u7b97'}
+[I 161130 15:52:25 web:1971] 200 GET /api/profile/auth (127.0.0.1) 1.98ms
+[I 161130 15:52:25 web:1971] 200 GET /api/house/my (127.0.0.1) 1.30ms
+[I 161130 15:52:36 web:1971] 304 GET /api/profile (127.0.0.1) 1.41ms
+[I 161130 15:53:00 connectionpool:805] Starting new HTTPS connection (1): uc.qbox.me
+[D 161130 15:53:01 connectionpool:401] "GET /v1/query?ak=-IwUpGHYXdxpFcUa6Jy-eb07c8ZmD4oU2DuQVlw-&bucket=ceshi HTTP/1.1" 200 233
+[D 161130 15:53:01 retry:170] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None)
+[I 161130 15:53:01 connectionpool:214] Starting new HTTP connection (1): up-z1.qiniu.com
+[D 161130 15:53:01 connectionpool:401] "POST / HTTP/1.1" 200 76
+[I 161130 15:53:01 web:1971] 200 POST /api/profile/avatar (127.0.0.1) 1063.27ms
+[I 161130 15:54:00 web:1971] 304 GET /profile.html (127.0.0.1) 0.85ms
+[I 161130 15:54:00 web:1971] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.23ms
+[I 161130 15:54:00 web:1971] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 0.91ms
+[I 161130 15:54:00 web:1971] 304 GET /static/css/reset.css (127.0.0.1) 0.71ms
+[I 161130 15:54:00 web:1971] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 0.95ms
+[I 161130 15:54:00 web:1971] 304 GET /static/css/ihome/main.css (127.0.0.1) 1.35ms
+[I 161130 15:54:00 web:1971] 304 GET /static/css/ihome/profile.css (127.0.0.1) 0.96ms
+[I 161130 15:54:00 web:1971] 304 GET /static/js/jquery.min.js (127.0.0.1) 0.96ms
+[I 161130 15:54:00 web:1971] 304 GET /static/js/jquery.form.min.js (127.0.0.1) 0.75ms
+[I 161130 15:54:00 web:1971] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 0.80ms
+[I 161130 15:54:00 web:1971] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 1.49ms
+[I 161130 15:54:00 web:1971] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.25ms
+[I 161130 15:54:00 web:1971] 200 GET /static/js/ihome/profile.js (127.0.0.1) 0.84ms
+[I 161130 15:54:01 web:1971] 200 GET /api/profile (127.0.0.1) 1.38ms
+[I 161130 15:54:06 web:1971] 304 GET /static/js/ihome/my.js (127.0.0.1) 0.86ms
+[I 161130 15:54:07 web:1971] 304 GET /api/profile (127.0.0.1) 1.51ms
+[I 161130 15:54:11 web:1971] 304 GET /static/js/ihome/index.js (127.0.0.1) 0.74ms
+[W 161130 15:54:11 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.88ms
+[I 161130 15:54:11 web:1971] 304 GET /api/check_login (127.0.0.1) 1.10ms
+[I 161130 15:54:11 web:1971] 304 GET /api/house/index (127.0.0.1) 1.72ms
+[I 161130 15:54:30 web:1971] 200 GET /search.html?aid=&aname=&sd=2016-11-30&ed=2016-12-02 (127.0.0.1) 1.07ms
+[W 161130 15:54:30 web:1971] 404 GET /static/images/landlord01.jgp (127.0.0.1) 0.93ms
+[I 161130 15:54:42 web:1971] 304 GET /api/check_login (127.0.0.1) 1.24ms
+[I 161130 15:54:42 web:1971] 304 GET /api/house/index (127.0.0.1) 1.44ms
+[W 161130 15:54:42 web:1971] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.80ms

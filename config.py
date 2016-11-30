@@ -7,8 +7,8 @@ import os
 settings = dict(
 	static_path = os.path.join(os.path.dirname(__file__), "static"),
 	# template_path = os.path.join(os.path.dirname(__file__), "template"),
-	coookie_secret = "m4NYpBm/R3e+2drYi0dxl+73KjdobUbgjaFbiis3coo=",
-	xsrf_cookies = True,
+	cookie_secret = "m4NYpBm/R3e+2drYi0dxl+73KjdobUbgjaFbiis3coo=",
+	# xsrf_cookies = True,
 	debug = True,
 )
 

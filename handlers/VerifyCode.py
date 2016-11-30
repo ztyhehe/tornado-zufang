@@ -89,7 +89,7 @@ class SMSCodeHandler(BaseHandler):
 			# 判断返回值
 			if not "000000" == json_sms_return_data["statusCode"]:
 				logging.error("yuntongxun SMS is error")
-				logging.error(json_sms_return_data)
+				logging.error(json_sms_return_data.encode('utf8'))
 				logging.debug(type(json_sms_return_data))
 				return self.write(dict(errno=RET.THIRDERR, errmsg="短信发送错误"))
 		except Exception as e:

@@ -24,5 +24,29 @@ $(document).ready(function() {
             $("#password-err").show();
             return;
         }
+        var data = {};
+        $(this).serializeArray().map(function(x){data[x.name] = x.value;});
+        var jsonData = JSON.stringify(data);
+        $.ajax({
+            url:"/api/login",
+            type:"POST",
+            data: jsonData, 
+            contentType: "application/json",
+            dataType: "json",
+            headers:{
+                "X-XSRFTOKEN":getCookie("_xsrf"),
+            },
+            success: function (data) {
+                if ("0" == data.errno) {
+                    location.href = "/";
+                    return;
+                }
+                else {
+                    $("#password-err span").html(data.errmsg);
+                    $("#password-err").show();
+                    return;
+                }
+            }
+        });
     });
 })
